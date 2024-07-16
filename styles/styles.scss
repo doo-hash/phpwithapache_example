@@ -1,0 +1,59 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+section{
+    background-color: rgba(248, 166, 12, 0.5);
+    background-image: url(/files/bruno-emmanuelle-oBzeCH75UHE-unsplash.jpg);
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: darken;
+    min-height: 100vh;
+    h1{
+        padding-left: 1rem;
+        font-size: 5rem;
+        font-family: cursive;
+    }
+}
+nav{
+    width: 100%;
+    height: 5rem;
+    padding: 1rem;
+    a{
+        text-decoration: none;
+        color: rgba(248, 166, 12, 1);
+        letter-spacing: 0.05rem;
+    }
+    ul li{
+        float: right;
+        font-size: 1.5rem;
+        border-bottom: 2px solid black;
+        display: inline;
+        list-style: none;
+        padding: 1rem 0.5rem 0.5rem 0.5rem;
+        margin-right: 0.5rem;
+    }
+}
+.login_block{
+    h2{
+        color: rgba(248, 166, 12, 0.8);
+        padding: 1rem;
+        border-bottom: 2px solid rgba(248, 166, 12, 0.5);
+    }
+    table{
+        border: 2px solid black;
+        tr{
+            background-color: rgba(black, 0.5);
+            color: white;
+            font-size: 20px;
+        }
+        td,th{
+            border: 1px solid black;
+            padding: 0.2rem;
+        }
+    }
+}

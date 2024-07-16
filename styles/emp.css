@@ -1,0 +1,12 @@
+
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(178, 250, 250, 0.479);
+}
+.flex-container > div{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-size: medium;
+    line-height: 2;
+}
